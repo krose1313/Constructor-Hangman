@@ -1,0 +1,23 @@
+{
+  "name": "constructor_hangman",
+  "version": "1.0.0",
+  "description": "commandline hangman game using constructors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krose1313/Constructor-Hangman.git"
+  },
+  "author": "Katy Rose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krose1313/Constructor-Hangman/issues"
+  },
+  "homepage": "https://github.com/krose1313/Constructor-Hangman#readme",
+  "dependencies": {
+    "inquirer": "^5.0.1",
+    "npm-install-prompt": "0.0.2"
+  }
+}
