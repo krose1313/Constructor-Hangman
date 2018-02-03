@@ -39,8 +39,8 @@ var HangmanWord = function(gameWord){
 	HangmanWord.prototype.displayWord = function(){
 		
 		var string1 = "";
-		for (var i = 0; i < this.letterCollection.length; i++){
-			string1 += " " + this.letterCollection[i].displayLetter();
+		for (var i = 0; i < this.letterStorage.length; i++){
+			string1 += " " + this.letterStorage[i].displayLetter();
 		
 		}
 		return string1;

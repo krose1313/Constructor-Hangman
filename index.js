@@ -5,7 +5,7 @@ var letters = require("./letters.js");
 
 prompt.start();
 
-	console.log("Hello and Hello Again!");
+	console.log("Hello and Hello Again! HINT: Think about all the different ways to say 'Hello'");
 
 var newGame = function(){
 	this.possibleWords = ["BONJOUR", "HOLA", "CIAO", "HELLO", "NAMASTE", "SALAAM", "JAMBO"];
