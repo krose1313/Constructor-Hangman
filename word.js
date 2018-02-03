@@ -1,4 +1,4 @@
-var letters = require("./letter.js");
+var letters = require("./letters.js");
 
 var spaceHolder = [];
 var gameWord = "";
@@ -19,7 +19,7 @@ var HangmanWord = function(gameWord){
 	// console.log("Here's our gameWord in the word constructor: " + this.gameWord);
 
 
-	Word.prototype.checkIfLetterFound = function(guessLetter){
+	HangmanWord.prototype.checkIfLetterFound = function(guessLetter){
 			var whatToReturn = false;
 			for (var i=0; i < this.letterStorage.length; i++){
 				whatToReturn |= this.letterStorage[i].updateGuessedLetter(guessLetter);
@@ -28,7 +28,7 @@ var HangmanWord = function(gameWord){
 		
 		}
 
-	Word.prototype.checkIfWordFound = function(){
+	HangmanWord.prototype.checkIfWordFound = function(){
 		var whatToReturn = true;
 			for (var i=0; i < this.letterStorage.length; i++){
 				whatToReturn &= this.letterStorage[i].usedLetter;
@@ -36,7 +36,7 @@ var HangmanWord = function(gameWord){
 		
 		}
 
-	Word.prototype.displayWord = function(){
+	HangmanWord.prototype.displayWord = function(){
 		
 		var string1 = "";
 		for (var i = 0; i < this.letterCollection.length; i++){
@@ -49,4 +49,4 @@ var HangmanWord = function(gameWord){
 	
 
 
-module.exports = hangmanWord;
+module.exports = HangmanWord;

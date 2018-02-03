@@ -10,7 +10,6 @@ var letters = function (guessedLetter) {
 	  		return this.guessedLetter;
 	  	}
 	  }
-	}
 	this.updateGuessedLetter = function(wordLetter) {
 	  	//function that returns underlying char if correct or _ if not
 	  	var matched = this.guessedLetter.toLowerCase() === wordLetter.toLowerCase();

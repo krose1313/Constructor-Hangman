@@ -18,6 +18,7 @@
   "homepage": "https://github.com/krose1313/Constructor-Hangman#readme",
   "dependencies": {
     "inquirer": "^5.0.1",
-    "npm-install-prompt": "0.0.2"
+    "npm-install-prompt": "0.0.2",
+    "prompt": "^1.0.0"
   }
 }
